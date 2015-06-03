@@ -39,52 +39,61 @@
 
 	<!--Demo CSS-->
 	<link href="demo.css" rel="stylesheet">
+
+  <!--Raleway Font-->
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
   </head>
 
-  <body style="margin:10px">
-    <header>
-      <h1>Javascript annotation service test</h1>
-    </header>
-    
-    <div id="controls">
-      <h3>Controls</h3>
-      <p>
-        <input id="username" value="Mark">
-      </p>
+  <body id="airlock" style="margin:10px">
+
+    <div class="row">
+      <div class="lg-12 centered">
+        <div class="airlock">
+          <h2>강의 콘텐츠 하이라이트 플랫폼</h2>
+          <div class="lg-9 centered">
+            <p>강의에서 발생하는 모든 콘텐츠를 하이라이팅 할 수 있는 플랫폼입니다. 텍스트, 영상, 오디오, 슬라이드를 편리하게, 한 눈에 들어오도록 배치하여 가장 효율적으로 학습하는 것을 도와줍니다. 학생들이 남긴 하이라이트를 통해 강의자는 피드백을 얻을 수 있고, 학생들은 중요한 부분을 골라들어 더 효과적으로 학습할 수 있습니다.</p>
+          </div>
+          <div class="lg-6 centered">
+          	<video id="vid1" class="video-js vjs-default-skin" controls preload="none" width="100%" height="300px" poster="http://video-js.zencoder.com/oceans-clip.png" data-setup=''>
+          		<source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
+          		<source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
+          		<source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
+          		<track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
+          	</video>
+          </div>
+          <div class="lg-6 centered">
+            	<video id="vid3" class="video-js vjs-default-skin" controls preload="none" width="100%" height="300px" data-setup='{techOrder: ["html5","flash","youtube"]}'>
+            		<source src="https://youtu.be/0Fb8RMnXeTM" type="video/youtube">
+            	</video>
+          </div>
+
+          <div class="lg-12">
+
+            <div class="sm-4 columns">
+              <h3>콘텐츠 하이라이트</h3>
+              <p>동영상, 텍스트 어디든 하이라이트하고 노트를 남길 수 있습니다. 동영상을 재생하는 도중 하이라이트 버튼을 눌러서 구간을 지정하고 노트를 남길 수 있습니다. 텍스트를 범위로 선택한 이후 하이라이트 할수도 있습니다.</p>
+            </div>
+
+            <div class="sm-4 columns">
+              <h3>하이라이트 통계와 분석</h3>
+              <p>하이라이트 한 내용을 시각화하여 분석할 수 있습니다. 영상의 어떤 부분에서 사람들이 어떤 반응을 보였는지 분석할 수 있습니다. 총 하이라이트 갯수와 구간별 하이라이트 갯수를 보여주기 때문에 어떤 부분이 중요한지 바로 알 수 있습니다.</p>
+            </div>
+
+            <div class="sm-4 columns">
+              <h3>편리한 영상 사용</h3>
+              <p>유투브에 업로드 되어있는 영상을 사용하거나 직접 업로드해서 사용할 수 있어 편리하게 하이라이트 기능을 이용할 수 있습니다.</p>
+            </div>
+            
+          </div>
+
+          <div class="lg-6 centered">
+            <img src="./amara_guide.png" width="100%" height="100%"></img>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div id="airlock">
-      <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
-	<video id="vid1" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"
-	poster="http://video-js.zencoder.com/oceans-clip.png"
-	data-setup=''>
-		<source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
-		<source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
-		<source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
-		<track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
-	</video>
-	<br />
-	The same video, but with different annotations:
-	<br />
-	<video id="vid2" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"
-	poster="http://video-js.zencoder.com/oceans-clip.png"
-	data-setup=''>
-		<source src="http://video-js.zencoder.com/oceans-clip.mp4" type='video/mp4' />
-		<source src="http://video-js.zencoder.com/oceans-clip.webm" type='video/webm' />
-		<source src="http://video-js.zencoder.com/oceans-clip.ogv" type='video/ogg' />
-		<track kind="captions" src="demo.captions.vtt" srclang="en" label="English"></track><!-- Tracks need an ending tag thanks to IE9 -->
-	</video>
-	<br />
-	And you could use youtube video:
-	<br />
-	<video id="vid3" class="video-js vjs-default-skin" controls preload="none" width="640" height="264"
-	data-setup='{techOrder: ["html5","flash","youtube"]}'>
-		<source src="http://www.youtube.com/watch?v=-m_S-IDs3Wg" type="video/youtube">
-	</video>
-	<div onclick="ova.playTarget('8I2NBkJbQoeF3-bqgpcwTw')">Play a target</div>
-	<div onclick="ova.newVideoAn('vid1')">New Annotation in vid1</div>
-	<div onclick="ova.showDisplay('vid2')">showDisplay vid2</div>
-    </div>
+  </div>
 
     <script>
     	//Options to load in Open Video Annotation, for all the plugins
@@ -141,6 +150,7 @@
 			ova.setCurrentUser($(this).val());
 		});
     </script>
+  
   </body>
 
 

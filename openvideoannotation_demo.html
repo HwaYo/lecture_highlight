@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!-- saved from url=(0046)http://www.openvideoannotation.org/explore.php -->
+<html class=" js no-touch svg inlinesvg svgclippaths no-ie8compat" lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width">
+  
+  
+<title>Open Video Annotation Project: ucfirst(Explore) </title><meta name="keywords" content="video annotation, open source, video commentaries, video tagging, video sharing, video fragments, video editing, annotation, commentary, moving picture commentary, interactive video, video teaching tool, video assessment, semantic video tagging, open annotation,  "><meta name="description" content="Open Video Annotations for teaching, learning and research. "><meta name="author" content="Philip Desenne and Daniel Cebrián Robles"><link rel="icon" type="image/jpg" href="http://www.openvideoannotation.org/img/faviova.jpg">
+
+
+
+  
+
+	<link rel="stylesheet" href="http://www.openvideoannotation.org/js/foundation/foundation-4.3.1/css/normalize.css">
+	<link rel="stylesheet" href="http://www.openvideoannotation.org/js/foundation/foundation-4.3.1/css/foundation.css">
+	<script src="./openvideoannotation_demo_files/custom.modernizr.js"></script>
+
+
+ 
+	<!-- Annotator -->
+	<script src="./openvideoannotation_demo_files/jquery.min.js"></script>
+        <script src="./openvideoannotation_demo_files/annotator.min.js"></script>
+        <link rel="stylesheet" href="http://ovap-dev01.chs.harvard.edu/lib/annotator/annotator.min.css">
+
+
+	<!--video-js-->
+        <link href="http://vjs.zencdn.net/4.2/video-js.css" rel="stylesheet">
+        <script src="./openvideoannotation_demo_files/video.dev.js"></script>
+
+        <!--Youtube Pluging-->
+        <script src="./openvideoannotation_demo_files/vjs.youtube.js"></script>
+
+        <!--RangeSlider Pluging-->
+        <script src="./openvideoannotation_demo_files/rangeslider.min.js"></script>
+        <link href="http://ovap-dev01.chs.harvard.edu/release/rangeslider-videojs/v0.1/rangeslider.min.css" rel="stylesheet">
+
+        <!--Share Pluging-->
+        <script src="./openvideoannotation_demo_files/share-annotator.min.js"></script>
+        <link href="http://ovap-dev01.chs.harvard.edu/release/share-annotator/v0.1/share-annotator.min.css" rel="stylesheet">
+
+        <!--Geolocation Pluging-->
+        <script src="./openvideoannotation_demo_files/geolocation-annotator.min.js"></script>
+        <link href="http://ovap-dev01.chs.harvard.edu/release/geolocation-annotator/v0.1/geolocation-annotator.min.css" rel="stylesheet">
+
+	<!--RichText Pluging-->
+	<script src="./openvideoannotation_demo_files/tinymce.min.js"></script>
+        <script src="./openvideoannotation_demo_files/richText-annotator.min.js"></script>
+        <link href="http://ovap-dev01.chs.harvard.edu/release/richText-annotator/v0.1/richText-annotator.min.css" rel="stylesheet">
+
+        <!--OpenVideoAnnotation Pluging-->
+        <script src="./openvideoannotation_demo_files/ova.min.js"></script>
+        <link href="http://ovap-dev01.chs.harvard.edu/release/OpenVideoAnnotation/v0.1/ova.min.css" rel="stylesheet">
+<link href="http://www.openvideoannotation.org/css/ovalayout.css" rel="stylesheet"> 
+
+ <!-- Custom css for examples  -->
+<style type="text/css">
+  #airlock {
+	font-size: 1.2em;
+	margin: 20px auto;
+	/*padding: 1em 2em;*/
+	width: 640px;
+  }
+
+  #instructions {
+	font-size: 1.2em;
+	margin: 20px auto;
+	width: 640px;
+	
+}
+
+</style>
+
+
+<style id="annotator-dynamic-style">.annotator-adder, .annotator-outer, .annotator-notice {
+  z-index: 1020;
+}
+.annotator-filter {
+  z-index: 1010;
+}</style><link rel="stylesheet" href="http://ovap-dev01.chs.harvard.edu/lib/tinymce/skins/lightgray/skin.min.css"><style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+    top: 18px !important;
+    left: 50% !important;
+    margin-left: -100px !important;
+    width: 200px !important;
+    border: 2px rgba(255,255,255,.38) solid !important;
+    border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+    margin-left: 0px !important;
+}
+</style></head>
+<body>
+<!--Page Header-->
+	<nav class="top-bar">
+
+           
+ <ul class="title-area">
+        <!-- Title Area -->
+        <li class="name">
+          <!--<h1>OVA</a></h1>--><a href="http://www.openvideoannotation.org/"><img src="./openvideoannotation_demo_files/ova_logo_yel.png" width="90" height="45" alt="Open Video Annotation Logo"></a>
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="http://www.openvideoannotation.org/explore.php#"><span>Menu</span></a></li>
+      </ul>
+    <section class="top-bar-section">
+        <!-- Right Nav Section -->
+        <ul class="right"><li id="t-home"><a href="http://www.openvideoannotation.org/index.php">Home</a></li> 
+<li class="divider"></li>
+<li id="t-explore"><a href="./openvideoannotation_demo_files/openvideoannotation_demo.html" title="explore" class="active">Explore</a></li>
+<li class="divider"></li>
+<li id="t-join"><a href="http://www.openvideoannotation.org/join.php" title="join">Join</a></li>
+<li class="divider"></li>
+<li id="t-login"><a href="http://www.openvideoannotation.org/login.php" title="login">Login</a></li>
+<li class="divider"></li>
+<li id="t-docs"><a href="http://www.openvideoannotation.org/docs.php" title="docs">Docs</a></li>
+<li class="divider"></li>
+<li id="t-about"><a href="http://www.openvideoannotation.org/about.php" title="about">About</a></li>
+<li class="divider"></li>
+<li id="t-code" class="has-form"><a href="http://www.openvideoannotation.org/code.php" title="code" class="button">Code</a></li>
+<li class="divider"></li>
+</ul>
+      </section></nav>
+
+<!--Page content here--> 
+<div class="row">
+	<div class="large-12 large-centered columns">
+        <h1 style="text-align:center">Explore Open Video Annotation</h1>
+        <p style="text-align:center"><em>Try it! Start annotating the video</em></p>
+    </div>
+</div>    	
+
+<div class="row">
+	<div class="large-12 large-centered columns">
+		<div id="airlock"><div class="annotator-wrapper">
+            <div id="vid1" class="video-js vjs-default-skin vjs-controls-enabled vjs-has-started vjs-paused vjs-user-inactive" style="width: 640px; height: 264px;"><video id="vid1_html5_api" class="vjs-tech" preload="none" poster="http://video-js.zencoder.com/oceans-clip.png" data-setup="" src="http://video-js.zencoder.com/oceans-clip.mp4"> 
+                
+                
+            </video><div></div><div class="vjs-poster" tabindex="-1" style="display: none; background-image: url(http://video-js.zencoder.com/oceans-clip.png);"></div><div class="vjs-text-track-display"></div><div class="vjs-loading-spinner" style="display: none;"></div><div class="vjs-big-play-button" role="button" aria-live="polite" tabindex="0" aria-label="play video"><span></span></div><div class="vjs-control-bar"><div class="vjs-play-control vjs-control  vjs-paused" role="button" aria-live="polite" tabindex="0"><div class="vjs-control-content"><span class="vjs-control-text">Play</span></div></div><div class="vjs-current-time vjs-time-controls vjs-control"><div class="vjs-current-time-display" aria-live="off"><span class="vjs-control-text">Current Time </span>0:37</div></div><div class="vjs-time-divider"><div><span>/</span></div></div><div class="vjs-duration vjs-time-controls vjs-control"><div class="vjs-duration-display" aria-live="off"><span class="vjs-control-text">Duration Time </span>0:46</div></div><div class="vjs-remaining-time vjs-time-controls vjs-control"><div class="vjs-remaining-time-display" aria-live="off"><span class="vjs-control-text">Remaining Time </span>-0:09</div></div><div class="vjs-progress-control vjs-control"><div role="slider" aria-valuenow="80.5" aria-valuemin="0" aria-valuemax="100" tabindex="0" class="vjs-progress-holder vjs-slider" aria-label="video progress bar" aria-valuetext="0:37"><div class="vjs-load-progress" style="width: 100%;"><span class="vjs-control-text">Loaded: 0%</span></div><div class="vjs-play-progress" style="width: 79.88%;"><span class="vjs-control-text">Progress: 0%</span></div><div class="vjs-seek-handle vjs-slider-handle" style="left: 78.87%;"><span class="vjs-control-text">00:00</span></div><div class="vjs-timebar-RS" style="display: none;"><div class="vjs-rangeslider-holder"><div class="vjs-selectionbar-RS" style="left: 80.4532499758306%; width: 10%;"></div><div class="vjs-rangeslider-handle vjs-selectionbar-left-RS" style="left: 80.4532499758306%; z-index: 10;"><div class="vjs-selectionbar-arrow-RS"></div><div class="vjs-selectionbar-line-RS"></div></div><div class="vjs-rangeslider-handle vjs-selectionbar-right-RS" style="left: 90.4532499758306%;"><div class="vjs-selectionbar-arrow-RS"></div><div class="vjs-selectionbar-line-RS"></div></div><div class="vjs-timepanel-RS"><div class="vjs-timepanel-left-RS" style="left: 77.2032499758306%;"><span class="vjs-time-text">0:37</span></div><div class="vjs-timepanel-right-RS" style="left: 87.2032499758306%;"><span class="vjs-time-text">0:42</span></div></div></div></div></div></div><div class="vjs-fullscreen-control vjs-control " role="button" aria-live="polite" tabindex="0"><div class="vjs-control-content"><span class="vjs-control-text">Fullscreen</span></div></div><div class="vjs-volume-control vjs-control"><div role="slider" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" tabindex="0" class="vjs-volume-bar vjs-slider" aria-label="volume level" aria-valuetext="100%"><div class="vjs-volume-level" style="width: 100%;"><span class="vjs-control-text"></span></div><div class="vjs-volume-handle vjs-slider-handle" style="left: 100%;"><span class="vjs-control-text">00:00</span></div></div></div><div class="vjs-mute-control vjs-control" role="button" aria-live="polite" tabindex="0"><div><span class="vjs-control-text">Mute</span></div></div><div class="vjs-subtitles-button vjs-menu-button vjs-control " role="button" aria-live="polite" tabindex="0" aria-haspopup="true" aria-label="Subtitles Menu" style="display: none;"><div class="vjs-control-content"><span class="vjs-control-text">Subtitles</span></div><div class="vjs-menu"><ul class="vjs-menu-content"><li class="vjs-menu-item vjs-selected" role="button" aria-live="polite" tabindex="0" aria-selected="true">subtitles off</li></ul></div></div><div class="vjs-captions-button vjs-menu-button vjs-control " role="button" aria-live="polite" tabindex="0" aria-haspopup="true" aria-label="Captions Menu" style="display: none;"><div class="vjs-control-content"><span class="vjs-control-text">Captions</span></div><div class="vjs-menu"><ul class="vjs-menu-content"><li class="vjs-menu-item vjs-selected" role="button" aria-live="polite" tabindex="0" aria-selected="true">captions off</li></ul></div></div><div class="vjs-chapters-button vjs-menu-button vjs-control " role="button" aria-live="polite" tabindex="0" aria-haspopup="true" aria-label="Chapters Menu" style="display: none;"><div class="vjs-control-content"><span class="vjs-control-text">Chapters</span></div><div class="vjs-menu"><ul class="vjs-menu-content"></ul><li class="vjs-menu-title">Chapters</li></div></div><div class="vjs-controltimepanel-RS vjs-control" style="display: none;"><div class="vjs-controltimepanel-left-RS">Start: <input type="text" id="controltimepanel" maxlength="2" value="00">:<input type="text" id="controltimepanel" maxlength="2" value="00">:<input type="text" id="controltimepanel" maxlength="2" value="00"></div><div class="vjs-controltimepanel-right-RS">End: <input type="text" id="controltimepanel" maxlength="2" value="00">:<input type="text" id="controltimepanel" maxlength="2" value="00">:<input type="text" id="controltimepanel" maxlength="2" value="00"></div></div><div class="vjs-container-button-annotation vjs-menu-button vjs-control"><div class="vjs-statistics-annotation vjs-menu-button vjs-control active" role="button" aria-live="polite" tabindex="0" title="Show the Statistics"><div class="vjs-control-content"><span class="vjs-control-text">Need Text</span></div></div><div class="vjs-showannotations-annotation vjs-menu-button vjs-control" role="button" aria-live="polite" tabindex="0" title="Show Annotations"><div class="vjs-control-content"><span class="vjs-control-text">Need Text</span></div></div><div class="vjs-new-annotation vjs-menu-button vjs-control" role="button" aria-live="polite" tabindex="0" title="New Annotation"><div class="vjs-control-content"><span class="vjs-control-text">Need Text</span></div></div></div><div class="vjs-back-anpanel-annotation statistics" style="height: 21em; top: -24em;"><div class="vjs-rangeselector-anpanel-annotation"><div class="vjs-leftselector-anpanel-annotation include" style="left: 0%; width: 0%;"><div class="vjs-selector-arrow" title="Left Annotation Selector" style="z-index: 10;"></div><div class="vjs-leftselector-back"></div></div><div class="vjs-rightselector-anpanel-annotation include" style="left: 100%; width: 0%;"><div class="vjs-selector-arrow" title="Right Annotation Selector"></div><div class="vjs-rightselector-back"></div></div><div class="vjs-barselector-anpanel-annotation disable" style="left: 0%; width: 100%;"><div class="vjs-barselector-left" style="left: 1em;"><span class="vjs-time-text">0:00</span></div><div class="vjs-barselector-right" style="right: 1em;"><span class="vjs-time-text">0:46</span></div></div></div><div class="vjs-anpanel-annotation"><span class="annotator-hl"><div class="annotation" id="0" style="top: 0em; left: 12.695212744245%; width: 22.8676060209112%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="1" style="top: 1em; left: 10.0146391243165%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="2" style="top: 2em; left: 5.13987303019561%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="3" style="top: 3em; left: 6.88421041324267%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="4" style="top: 4em; left: 2.91832898284511%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="5" style="top: 5em; left: 43.5660404112017%; width: 4.1854244325483%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="6" style="top: 6em; left: 57.9229544648899%; width: 9.99967774161324%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="7" style="top: 7em; left: 5.56223346545927%; width: 6.46914577358126%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="8" style="top: 8em; left: 88.1906287261126%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="9" style="top: 9em; left: 44.8477264670813%; width: 3.8241485329187%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="10" style="top: 10em; left: 20.9688827301731%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="11" style="top: 11em; left: 8.24976528847497%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="12" style="top: 12em; left: 6.89964014480144%; width: 9.99967774161322%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="13" style="top: 13em; left: 19.3019260309583%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="14" style="top: 14em; left: 7.92942111651789%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="15" style="top: 15em; left: 6.62042258816452%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="16" style="top: 16em; left: 58.6856096997362%; width: 6.24979858850827%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="17" style="top: 17em; left: 41.97021484375%; width: 27.34375%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="18" style="top: 18em; left: 46.5625%; width: 42.1276098901099%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="19" style="top: 19em; left: 34.0682263972587%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="20" style="top: 20em; left: 25.7188488930424%; width: 9.99999999999999%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="21" style="top: 21em; left: 80.1292922131632%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="22" style="top: 22em; left: 10.4621249718024%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="23" style="top: 23em; left: 70.8433308626857%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="24" style="top: 24em; left: 4.92828676699644%; width: 16.7897633280698%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="25" style="top: 25em; left: 13.0945484622904%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="26" style="top: 26em; left: 9.65039691491304%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="27" style="top: 27em; left: 29.5608559182753%; width: 9.99967774161324%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="28" style="top: 28em; left: 10.2073367492722%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="29" style="top: 29em; left: 24.6085819422513%; width: 50.3108786374915%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation point" id="30" style="top: 30em; left: 100%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="31" style="top: 31em; left: 17.8316307348565%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="32" style="top: 32em; left: 6.35923216568378%; width: 24.0313928343162%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="33" style="top: 33em; left: 37.0086000021484%; width: 29.8017478626486%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="34" style="top: 34em; left: 12.3432159238611%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="35" style="top: 35em; left: 40.6549515001128%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="36" style="top: 36em; left: 23.4167982555079%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="37" style="top: 37em; left: 2.3163188112173%; width: 10.0001074194623%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="38" style="top: 38em; left: 15.4014566079082%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="39" style="top: 39em; left: 26.3258784226526%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="40" style="top: 40em; left: 6.40178960824122%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="41" style="top: 41em; left: 13.6423017842373%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="42" style="top: 42em; left: 36.0805345192442%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="43" style="top: 43em; left: 10.9690116335278%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="44" style="top: 44em; left: 14.4839311226408%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="45" style="top: 45em; left: 41.1016811145843%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="46" style="top: 46em; left: 25.6379427024588%; width: 9.99999999999999%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="47" style="top: 47em; left: 6.52147852147852%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="48" style="top: 48em; left: 16.8459239685046%; width: 9.99967774161323%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="49" style="top: 49em; left: 35.2225070611137%; width: 9.99967774161322%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="50" style="top: 50em; left: 18.3518266679557%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="51" style="top: 51em; left: 8.51292148711504%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="52" style="top: 52em; left: 11.4443470507987%; width: 12.2275279492013%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="53" style="top: 53em; left: 1.79292105743719%; width: 22.3647937863128%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="54" style="top: 54em; left: 0%; width: 22.12646484375%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="55" style="top: 55em; left: 10.9330110749466%; width: 10.0001074194623%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="56" style="top: 56em; left: 83.0559614169997%; width: 9.99967774161321%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="57" style="top: 57em; left: 34.180828204054%; width: 9.99967774161323%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="58" style="top: 58em; left: 2.75706229254616%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="59" style="top: 59em; left: 8.72881527075075%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="60" style="top: 60em; left: 18.5091467672113%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="61" style="top: 61em; left: 48.0725618467554%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="62" style="top: 62em; left: 41.1556379104766%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="63" style="top: 63em; left: 53.9309271373787%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="64" style="top: 64em; left: 47.6567619208748%; width: 8.8069127841855%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="65" style="top: 65em; left: 13.0191693290735%; width: 9.09020567092651%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="66" style="top: 66em; left: 4.0896823606501%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="67" style="top: 67em; left: 16.5588970169615%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="68" style="top: 68em; left: 6.55889701696153%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="69" style="top: 69em; left: 19.21875%; width: 12.03125%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="70" style="top: 70em; left: 43.0061809158583%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="71" style="top: 71em; left: 23.6438808503325%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation point" id="72" style="top: 72em; left: 30.5197963326996%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="73" style="top: 73em; left: 8.41874039938556%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="74" style="top: 74em; left: 22.9086805667451%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="75" style="top: 75em; left: 12.578125%; width: 19.84375%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="76" style="top: 76em; left: 5.33636256216901%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="77" style="top: 77em; left: 8.54166666666667%; width: 12.4441754482077%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="78" style="top: 78em; left: 9.82088878863072%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="79" style="top: 79em; left: 23.420426884943%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="80" style="top: 80em; left: 12.8136508652638%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="81" style="top: 81em; left: 29.480182183408%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="82" style="top: 82em; left: 25.5395722557013%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="83" style="top: 83em; left: 39.4559202088234%; width: 9.99967774161323%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="84" style="top: 84em; left: 10.952713952714%; width: 9.99967774161323%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="85" style="top: 85em; left: 4.75976711460582%; width: 11.3339828853942%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="86" style="top: 86em; left: 27.3428688247237%; width: 43.7485901195579%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="87" style="top: 87em; left: 27.1458283651832%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="88" style="top: 88em; left: 17.1458283651832%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="89" style="top: 89em; left: 6.64439678171291%; width: 9.99967774161323%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="90" style="top: 90em; left: 20.2888867404996%; width: 9.99967774161323%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="91" style="top: 91em; left: 23.1172578024126%; width: 9.99967774161323%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="92" style="top: 92em; left: 8.6742698162053%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="93" style="top: 93em; left: 9.17649447326867%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="94" style="top: 94em; left: 4.78271484375%; width: 22.96875%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="95" style="top: 95em; left: 22.1320013320013%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="96" style="top: 96em; left: 9.42719645945452%; width: 17.5610074253496%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="97" style="top: 97em; left: 36.9968060868236%; width: 18.4094448668507%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="98" style="top: 98em; left: 8.05542629413597%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation point" id="99" style="top: 99em; left: 99.9967774161323%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="100" style="top: 100em; left: 27.420557936687%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="101" style="top: 101em; left: 13.4905128398483%; width: 9.99967774161322%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="102" style="top: 102em; left: 37.1864243283598%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="103" style="top: 103em; left: 2.63477597671146%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="104" style="top: 104em; left: 8.78024731406643%; width: 9.99967774161323%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="105" style="top: 105em; left: 3.03493400267594%; width: 9.99967774161323%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="106" style="top: 106em; left: 72.2851213302826%; width: 10.0001074194623%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="107" style="top: 107em; left: 16.4869624998657%; width: 10.0001074194623%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="108" style="top: 108em; left: 5.55575392349586%; width: 10.0001074194623%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="109" style="top: 109em; left: 47.5159249352798%; width: 9.99999999999999%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="110" style="top: 110em; left: 42.907349217814%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="111" style="top: 111em; left: 26.9882031946548%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="112" style="top: 112em; left: 18.5450957644506%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="113" style="top: 113em; left: 8.7675528772303%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="114" style="top: 114em; left: 8.05422749293717%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="115" style="top: 115em; left: 9.73645680819912%; width: 5.850496023915%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="116" style="top: 116em; left: 8.60226225387516%; width: 62.1179525898749%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="117" style="top: 117em; left: 17.2949802885287%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="118" style="top: 118em; left: 20.0717024910573%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="119" style="top: 119em; left: 40.056075107688%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="120" style="top: 120em; left: 52.614896931026%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="121" style="top: 121em; left: 80.591054313099%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="122" style="top: 122em; left: 9.02555910543131%; width: 4.17756589456869%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="123" style="top: 123em; left: 17.204311817215%; width: 3.03006318278495%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="124" style="top: 124em; left: 4.48073002266551%; width: 10%; margin-top: 0em;"></div></span><span class="annotator-hl"><div class="annotation" id="125" style="top: 125em; left: 24.3908908296005%; width: 10%; margin-top: 0em;"></div></span></div><div class="vjs-anstat-annotation"><canvas class="vjs-char-anstat-annotation" height="169" width="640" style="margin-top: 20px;">Your browser does not support the HTML5 canvas tag.</canvas><div class="vjs-totan-anstat-annotation">126 total annotations</div><div class="vjs-maxcon-anstat-annotation">Max Annotations = 50</div></div></div><div class="vjs-scroll-anpanel-annotation disable"><div class="vjs-up-scroll-annotation" style="top: -26em;"></div><div class="vjs-down-scroll-annotation"></div><div class="vjs-scrollbar-anpanel-annotation disable" style="height: 21em; top: -24em;"><div class="vjs-scrollbar-selector"></div></div><div class="vjs-scrolltime-anpanel-annotation"><div class="vjs-up-scrolltime-annotation" style="top: -26em;"><span class="vjs-time-text">Sun May 31 2015 10:54:57 GMT+0900 (KST)</span></div><div class="vjs-down-scrolltime-annotation"><span class="vjs-time-text">Thu May 28 2015 05:43:12 GMT+0900 (KST)</span></div></div></div></div><div class="vjs-big-new-annotation vjs-menu-button vjs-control none" role="button" aria-live="polite" tabindex="0" title="New Annotation" style="display: block;"><div class="vjs-big-menu-button vjs-control">A</div></div></div>
+        <div class="annotator-outer annotator-viewer annotator-hide">
+  <ul class="annotator-widget annotator-listing"></ul>
+</div><div class="annotator-outer annotator-editor annotator-invert-y annotator-hide" style="top: 216px; left: 546.890625px;">
+  <form class="annotator-widget">
+    <div class="annotator-controls">
+      <a href="http://www.openvideoannotation.org/explore.php#cancel" class="annotator-cancel">Cancel</a>
+<a href="http://www.openvideoannotation.org/explore.php#save" class="annotator-save">Save</a>
+    </div><ul class="annotator-listing"><li class="annotator-item"><div id="mce_18" class="mce-tinymce mce-container mce-panel" hidefocus="1" tabindex="-1" style="visibility: hidden; border-width: 1px; z-index: 3000000000; display: none;"><div id="mce_18-body" class="mce-container-body mce-stack-layout"><div id="mce_19" class="mce-container mce-panel mce-first mce-stack-layout-item" hidefocus="1" tabindex="-1" style="z-index: 3000000000;"><div id="mce_19-body" class="mce-container-body mce-stack-layout"><div id="mce_20" class="mce-container mce-toolbar mce-first mce-last mce-stack-layout-item" role="toolbar" style="z-index: 3000000000;"><div id="mce_20-body" class="mce-container-body mce-flow-layout"><div id="mce_21" class="mce-container mce-first mce-flow-layout-item mce-btn-group" role="toolbar" style="z-index: 3000000000;"><div id="mce_21-body"><div id="mce_0" class="mce-widget mce-btn mce-btn-small mce-first mce-disabled" tabindex="-1" role="button" aria-labeledby="mce_0" aria-label="Undo" aria-disabled="true"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-undo"></i></button></div><div id="mce_1" class="mce-widget mce-btn mce-btn-small mce-last mce-disabled" tabindex="-1" role="button" aria-labeledby="mce_1" aria-label="Redo" aria-disabled="true"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-redo"></i></button></div></div></div><div id="mce_22" class="mce-container mce-flow-layout-item mce-btn-group" role="toolbar" style="z-index: 3000000000;"><div id="mce_22-body"><div id="mce_2" class="mce-widget mce-btn mce-btn-small mce-menubtn mce-first mce-last" tabindex="-1" role="button" aria-haspopup="true"><button id="mce_2-open" role="presentation" type="button" tabindex="-1"><span>Formats</span> <i class="mce-caret"></i></button></div></div></div><div id="mce_23" class="mce-container mce-flow-layout-item mce-btn-group" role="toolbar" style="z-index: 3000000000;"><div id="mce_23-body"><div id="mce_3" class="mce-widget mce-btn mce-btn-small mce-first" tabindex="-1" role="button" aria-labeledby="mce_3" aria-label="Bold"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-bold"></i></button></div><div id="mce_4" class="mce-widget mce-btn mce-btn-small mce-last" tabindex="-1" role="button" aria-labeledby="mce_4" aria-label="Italic"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-italic"></i></button></div></div></div><div id="mce_24" class="mce-container mce-flow-layout-item mce-btn-group" role="toolbar" style="z-index: 3000000000;"><div id="mce_24-body"><div id="mce_5" class="mce-widget mce-btn mce-btn-small mce-first" tabindex="-1" role="button" aria-labeledby="mce_5" aria-label="Align left"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-alignleft"></i></button></div><div id="mce_6" class="mce-widget mce-btn mce-btn-small" tabindex="-1" role="button" aria-labeledby="mce_6" aria-label="Align center"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-aligncenter"></i></button></div><div id="mce_7" class="mce-widget mce-btn mce-btn-small" tabindex="-1" role="button" aria-labeledby="mce_7" aria-label="Align right"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-alignright"></i></button></div><div id="mce_8" class="mce-widget mce-btn mce-btn-small mce-last" tabindex="-1" role="button" aria-labeledby="mce_8" aria-label="Justify"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-alignjustify"></i></button></div></div></div><div id="mce_25" class="mce-container mce-flow-layout-item mce-btn-group" role="toolbar" style="z-index: 3000000000;"><div id="mce_25-body"><div id="mce_9" class="mce-widget mce-btn mce-btn-small mce-first" tabindex="-1" role="button" aria-labeledby="mce_9" aria-label="Bullet list"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-bullist"></i></button></div><div id="mce_10" class="mce-widget mce-btn mce-btn-small" tabindex="-1" role="button" aria-labeledby="mce_10" aria-label="Numbered list"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-numlist"></i></button></div><div id="mce_11" class="mce-widget mce-btn mce-btn-small" tabindex="-1" role="button" aria-labeledby="mce_11" aria-label="Decrease indent"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-outdent"></i></button></div><div id="mce_12" class="mce-widget mce-btn mce-btn-small mce-last" tabindex="-1" role="button" aria-labeledby="mce_12" aria-label="Increase indent"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-indent"></i></button></div></div></div><div id="mce_26" class="mce-container mce-flow-layout-item mce-btn-group" role="toolbar" style="z-index: 3000000000;"><div id="mce_26-body"><div id="mce_13" class="mce-widget mce-btn mce-btn-small mce-first" tabindex="-1" role="button" aria-labeledby="mce_13" aria-label="Insert/edit link"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-link"></i></button></div><div id="mce_14" class="mce-widget mce-btn mce-btn-small" tabindex="-1" role="button" aria-labeledby="mce_14" aria-label="Insert/edit image"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-image"></i></button></div><div id="mce_15" class="mce-widget mce-btn mce-btn-small" tabindex="-1" role="button" aria-labeledby="mce_15" aria-label="Insert/edit video"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-media"></i></button></div><div id="mce_16" class="mce-widget mce-btn mce-btn-small mce-last" tabindex="-1" role="button" aria-labeledby="mce_16" aria-label="Insert a rubric"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-rubric"></i></button></div></div></div><div id="mce_27" class="mce-container mce-last mce-flow-layout-item mce-btn-group" role="toolbar" style="z-index: 3000000000;"><div id="mce_27-body"><div id="mce_17" class="mce-widget mce-btn mce-btn-small mce-first mce-last" tabindex="-1" role="button" aria-labeledby="mce_17" aria-label="Source code"><button role="presentation" type="button" tabindex="-1"><i class="mce-ico mce-i-code"></i></button></div></div></div></div></div></div></div><div id="mce_28" class="mce-edit-area mce-container mce-panel mce-stack-layout-item" hidefocus="1" tabindex="-1" style="border-width: 1px 0px 0px; z-index: 3000000000;"><iframe id="annotator-field-0_ifr" src="javascript:""" frameborder="0" allowtransparency="true" title="Rich Text Area. Press ALT-F9 for menu. Press ALT-F10 for toolbar. Press ALT-0 for help" style="width: 100%; height: 100px; display: block;"></iframe></div><div id="mce_29" class="mce-statusbar mce-container mce-panel mce-last mce-stack-layout-item" hidefocus="1" tabindex="-1" style="border-width: 1px 0px 0px; z-index: 3000000000;"><div id="mce_29-body" class="mce-container-body mce-flow-layout"><div id="mce_30" class="mce-path"><div role="button" class="mce-path-item mce-last" data-index="0" tabindex="-1" id="mce_30-0">p</div></div><div id="mce_31" class="mce-last mce-flow-layout-item mce-resizehandle"><i class="mce-ico mce-i-resize"></i></div></div></div></div></div><textarea id="annotator-field-0" placeholder="Comments…" aria-hidden="true" style="display: none;"></textarea><span class="annotator-resize"></span></li><li class="annotator-item"><input id="annotator-field-1" placeholder="Add some tags here…"></li><li class="annotator-item annotator-checkbox"><input id="annotator-field-2" placeholder="Add my current location" type="checkbox"><label for="annotator-field-2">Add my current location</label></li><li class="annotator-item"><div class="share-container-annotator"><div class="share-text-annotator">Share without saving:</div><div class="share-button-annotator share-button"></div><div class="share-popup-overlay-bg" style="z-index:30000000000"><div class="share-popup"><div class="share-popup-items"></div><div class="close-btn">Close</div></div></div></div></li><li><span id="vjs-input-rangeTime-annotations"></span></li></ul>
+    
+  </form>
+</div><div class="annotator-adder" style="display: none; left: 546.890625px; top: 216px;"><button>Annotate</button></div></div></div><!-- example-video -->
+        <hr>
+ 	</div>
+</div>
+
+<div class="row">
+  <div class="small-4 columns">
+    	<!--<div class="panel">-->
+        <p><img src="./openvideoannotation_demo_files/create_annotation.jpg" width="432" height="238" alt="Create annotations"></p> 
+	<h3> Annotate and Share</h3>
+            <p> <img src="./openvideoannotation_demo_files/annotator_btn.png" width="23" height="21" alt="Annotator Button"> Click the "Annotate" button to begin taking notes on the timeline. You can click and adjust the range slider handles to fine-tune the start and end times of your annotation. Enter your comment, add tags, keep the annotation private or share it with your friends and colleagues through email or social media. 
+    </p>
+        <!--</div>-->
+        
+    
+    </div>
+    <div class="small-4 columns">
+    	<!--<div class="panel">-->
+        <p><img src="./openvideoannotation_demo_files/view_annotations2.jpg" width="443" height="244" alt="Browse Annotations"></p>
+   	  <h3> Browse and Discover </h3>
+            <p> <img src="./openvideoannotation_demo_files/view_annot_btn.png" width="23" height="21" alt="View Annotations Button"> Click the "View Annotations" button to browse and discover other annotations. Annotations are stacked chronologically. Scroll through annotations using the mouse scroll wheel or trackpad. Mouse-over annotation bars to reveal comments and location. Click the yellow bar to playback the annotated video fragment.    
+            
+            </p>
+        <!--</div>-->
+         
+    
+    </div>
+  <div class="small-4 columns">
+    	<!--<div class="panel">-->
+        <p><img src="./openvideoannotation_demo_files/chart_annot.png" width="454" height="250" alt="Chart Annotations"></p>
+   	<h3> Visualize and Analyze </h3>
+        	<p><img src="./openvideoannotation_demo_files/chart_btn.png" width="23" height="21" alt="Chart Annotations Button"> Click the "Chart Annotation" button to visualize where the annotations are taking place on the video timeline. This view gives you a quick "temperature" read of where the commenting activity is happening on the video. It displays the maximum peaks of all the annotations and the total number of annotations.
+    </p>
+        <!--</div>-->
+    </div>
+</div>
+        
+
+
+
+  <!-- Footer -->
+
+  
+<footer class="row">
+    <div class="large-12 columns">
+    <hr>
+    <p class="footer"> A project supported by <a href="http://chs.harvard.edu/">Center for Hellenic Studies</a>, at Harvard University and the <a href="http://www.juntadeandalucia.es/economiainnovacionyciencia/talentia/">Becas Talentia</a> program from the Junta de Andalucia, Spain. </p>   
+    <p style="text-align:center"><a href="http://chs.harvard.edu/"><img src="./openvideoannotation_demo_files/CHS_logo_trasnsp.png" alt="Center for Hellenic Studies, Harvard Univaersity" width="185" height="115">&nbsp;</a><a href="http://www.juntadeandalucia.es/economiainnovacionyciencia/talentia/"><img src="./openvideoannotation_demo_files/becas_talentia_logo.png" alt="Becas Talentia, Junta de Andalucia, Spain" width="218" height="69">&nbsp;</a><a href="http://www.juntadeandalucia.es/economiainnovacionyciencia/talentia/"><img src="./openvideoannotation_demo_files/junta_andalucia_logo.png" width="69" height="62"></a>
+    </p><hr>
+    </div>
+  </footer> 
+<div class="row">
+        <div class="large-12 columns">
+          <p class="copyright"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="./openvideoannotation_demo_files/88x31.png"></a><br><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Open Video Annotation </span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.openvideoannotation.org/" property="cc:attributionName" rel="cc:attributionURL">Philip Desenne and Daniel Cebrián Robles</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.<br>Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/CtrHellenicStudies/OpenVideoAnnotation" rel="dct:source">https://github.com/CtrHellenicStudies/OpenVideoAnnotation</a>.
+          </p>
+        </div>
+</div>
+<script>
+  document.write('<script src=' +
+  ('__proto__' in {} ? '../../js/foundation/foundation-4.3.1/js/vendor/zepto' : '../../js/foundation/foundation-4.3.1/js/vendor/jquery') +
+  '.js><\/script>')
+  </script><script src="./openvideoannotation_demo_files/zepto.js"></script>
+  <script src="./openvideoannotation_demo_files/foundation.min.js"></script>
+  <script>
+    $(document).foundation();
+  </script>
+	<script>
+    	//Options to load in Open Video Annotation, for all the plugins
+    	var options = {
+    		optionsAnnotator: {
+				user: { },
+				
+				store: {
+					// The endpoint of the store on your server.
+					prefix: 'http://danielcebrian.com/annotations/api',
+					
+					/*urls: {
+						// These are the default URLs.
+						create:  '/create',
+						read:    '/read/:id',
+						update:  '/update/:id',
+						destroy: '/destroy/:id',
+						search:  '/search'
+					},*/
+					// Attach the uri of the current page to all annotations to allow search.
+					annotationData: {
+						'uri': 'http://danielcebrian.com/annotations/demo.html'
+					},
+
+					// This will perform a "search" action rather than "read" when the plugin
+					// loads. Will request the last 20 annotations for the current url.
+					// eg. /store/endpoint/search?limit=20&uri=http://this/document/only
+					loadFromSearch: {
+						'limit': 10000,
+						'uri': 'http://danielcebrian.com/annotations/demo.html'
+					}
+				}
+			},
+			optionsVideoJS: {techOrder: ["html5","flash","youtube"]},
+			optionsRS: {},
+    		optionsOVA: {posBigNew:'none',NumAnnotations:20},
+    		optionsRichText: {
+			tinymce:{
+				selector: "li.annotator-item textarea",
+				plugins: "media image insertdatetime link code",
+				menubar: false,
+				toolbar_items_size: 'small',
+				extended_valid_elements : "iframe[src|frameborder|style|scrolling|class|width|height|name|align|id]",
+				toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image media rubric | code ",
+    			}
+    		},
+    	}
+    	//Load the plugin Open Video Annotation
+		var ova = new OpenVideoAnnotation.Annotator($('#airlock'),options);
+		
+    </script>
+
+<div class="annotator-notice"></div></body></html>
