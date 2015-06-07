@@ -58,6 +58,12 @@ div {
 .sm-4 {
 	width: 30%;
 }
+.sm-6 {
+	width: 45%;
+}
+.sm-9 {
+	width: 90%;
+}
 
 .columns {
 	padding-left: 0.9375em;
